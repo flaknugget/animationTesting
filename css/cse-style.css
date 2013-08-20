@@ -1,0 +1,103 @@
+@charset "iso-8859-1";
+/* Load in Custom Fonts from File(s) */
+@font-face {
+  font-family: gotham-med;
+  src: url("../fonts/Gotham-Medium.otf");
+  }
+  
+  @font-face {
+  font-family: gotham-med-ital;
+  src: url("../fonts/Gotham-MediumItalic.otf");
+  }
+  
+  @font-face {
+  font-family: gotham-book;
+  src: url("../fonts/Gotham-Book.otf");
+  }
+  
+  @font-face {
+  font-family: gotham-book-ital;
+  src: url("../fonts/Gotham-BookItalic.otf");
+  }
+
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END CSS Reset */
+
+
+/* Common Page Interface Items */  
+
+
+  html, body, .enContentWrap, .frContentWrap  {
+	  width: 2560px;
+	  background-color: #FFFFFF;
+	  display: block;
+	  margin: 0;
+	  padding: 0;
+  }
+  
+#topbar{
+	width: 2560px;
+	height: 75px;
+	background-color:#000000;	
+}
+
+#contentContainer{
+	width: 2560px;
+	height: 1367px;	
+	background-color:green;
+	overflow: hidden;
+}
+
+
+
+#bottombar{
+	width: 2560px;
+	height: 60px;
+	background-color:#000000;	
+}

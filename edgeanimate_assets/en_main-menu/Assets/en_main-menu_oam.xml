@@ -6,7 +6,7 @@
 
   <remarks>Compatible with: InDesign CS6, Dreamweaver</remarks>
 
-  <icon src="images/Poster.png" width="2560" height="1367" />
+  <icon src="images/Poster2.png" width="2560" height="1367" />
 
   <require type="other" src="en_main-menu.html" />
 
@@ -18,6 +18,7 @@
 
   <require type="image" src="images/mainmenuBackground.jpg" />
   <require type="image" src="images/Poster.png" />
+  <require type="image" src="images/Poster2.png" />
   <require type="image" src="images/quizIcon.png" />
   <require type="image" src="images/scenarioIcon.png" />
   <require type="image" src="images/servicesIcon.png" />

@@ -3,9 +3,9 @@ var toggleMainMenu="false";(function($,Edge,compId){var Composition=Edge.Composi
 //Edge symbol: 'stage'
 (function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_scenario_Btn}","click",function(sym,e){if(toggleMainMenu=="false"){toggleMainMenu="true";sym.play();}else if(toggleMainMenu=="true"){toggleMainMenu="false";sym.playReverse();}});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",750,function(sym,e){sym.stop();});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1730,function(sym,e){sym.stop();});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2230,function(sym,e){sym.stop();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_subIcon3}","click",function(sym,e){window.open("../../../en_clickable_scenario01_airport-travel.html","contentContainer");});
 //Edge binding end

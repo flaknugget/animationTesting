@@ -9,6 +9,7 @@
   <icon src="images/Poster.png" width="2560" height="1367" />
 
   <require type="other" src="AirportSequence_WorkingFile.html" />
+  <require type="other" src="images/CSE_Airport_Flattened.svg" />
   <require type="other" src="images/CSE_Airport_Layers_chopped-01.svg" />
   <require type="other" src="images/CSE_Airport_Layers_chopped-02.svg" />
   <require type="other" src="images/CSE_Airport_Layers_chopped-03.svg" />
@@ -31,6 +32,7 @@
   <require type="javascript" src="edge_includes/jquery-1.7.1.min.js" />
 
   <require type="image" src="images/beginBtn_icon.png" />
+  <require type="image" src="images/CSE_Airport_flattened.jpg" />
   <require type="image" src="images/Poster.png" />
   <require type="image" src="images/selectorIcons_atom_icon.png" />
   <require type="image" src="images/selectorIcons_binoc_icon.png" />

@@ -6,7 +6,7 @@
 
   <remarks>Compatible with: InDesign CS6, Dreamweaver</remarks>
 
-  <icon src="images/Poster.png" width="1280" height="682" />
+  <icon src="images/Poster.png" width="2560" height="1367" />
 
   <require type="other" src="language-select.html" />
 
@@ -27,8 +27,8 @@
   ]]></content>
    
   <properties name="Properties">
-    <property name="default-width" defaultValue="1280" hidden="true"/>
-    <property name="default-height" defaultValue="682" hidden="true"/>
+    <property name="default-width" defaultValue="2560" hidden="true"/>
+    <property name="default-height" defaultValue="1367" hidden="true"/>
     <property name="resizable" defaultValue="false" hidden="true"/>
     <property name="use-chrome-frame" defaultValue="false" hidden="true"/>
     <property name="chrome-frame-installer" defaultValue="" hidden="true"/>

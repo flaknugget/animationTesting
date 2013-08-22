@@ -1,7 +1,9 @@
 
 var toggleMainMenu="false";(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",750,function(sym,e){sym.stop();});
+(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_scenario_Btn}","click",function(sym,e){if(toggleMainMenu=="false"){toggleMainMenu="true";sym.play();}else if(toggleMainMenu=="true"){toggleMainMenu="false";sym.playReverse();}});
+//Edge binding end
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",750,function(sym,e){sym.stop();});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2230,function(sym,e){sym.stop();});
 //Edge binding end
@@ -9,13 +11,9 @@ Symbol.bindElementAction(compId,symbolName,"${_subIcon3}","click",function(sym,e
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_subIcon3_label}","click",function(sym,e){window.open("../../../en_clickable_scenario01_airport-travel.html","contentContainer");});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){});
+Symbol.bindElementAction(compId,symbolName,"${_subIcon1}","click",function(sym,e){window.open("../../../en_airport_sequence.html","contentContainer");});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_scenario_Btn}","touchstart",function(sym,e){if(toggleMainMenu=="false"){toggleMainMenu="true";sym.play();}else if(toggleMainMenu=="true"){toggleMainMenu="false";sym.playReverse();}});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_subIcon1_label_smb}","touchstart",function(sym,e){window.open("../../../en_airport_sequence.html","contentContainer");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_subIcon1}","touchstart",function(sym,e){window.open("../../../en_airport_sequence.html","contentContainer");});
+Symbol.bindElementAction(compId,symbolName,"${_subIcon1_label_smb}","click",function(sym,e){window.open("../../../en_airport_sequence.html","contentContainer");});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
